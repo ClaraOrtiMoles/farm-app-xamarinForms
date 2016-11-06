@@ -24,7 +24,7 @@ namespace Farms.App.Views
             if (farm == null)
                 return;
 
-            await Navigation.PushAsync(new MenuView(farm));
+            await Navigation.PushAsync(new MenuView());
 
             ListViewFarms.SelectedItem = null;
         }
