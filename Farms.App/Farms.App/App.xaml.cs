@@ -13,7 +13,7 @@ namespace Farms.App
         {
             InitializeComponent();
 
-            MainPage = new Farms.App.MainPage();
+            MainPage = new Farms.App.Views.FarmsView();
         }
 
         protected override void OnStart()
