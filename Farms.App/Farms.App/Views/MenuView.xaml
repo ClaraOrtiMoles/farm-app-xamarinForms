@@ -9,7 +9,7 @@
    
     <ListView ItemsSource="{Binding Options}"
             RowHeight="66"
-            x:Name="ListViewFarms">
+            x:Name="ListViewMenu">
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>

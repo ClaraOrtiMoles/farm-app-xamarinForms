@@ -8,6 +8,7 @@ namespace Farms.App.ViewModel
     {
         public ObservableCollection<OptionModel> Options { get; set; }
 
+        public FarmModel CurrentFarm { get; set; }
         public MenuViewModel()
         {
             var list = new ObservableCollection<OptionModel>();

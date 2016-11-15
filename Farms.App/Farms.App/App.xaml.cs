@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Farms.App.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,9 +12,12 @@ namespace Farms.App
     {
         public App()
         {
-            InitializeComponent();
+            //InitializeComponent();
 
-            MainPage = new Farms.App.Views.FarmsView();
+            // The root page of your application
+            var content = new FarmsView();
+
+            MainPage = new NavigationPage(content);
         }
 
         protected override void OnStart()
